@@ -64,10 +64,16 @@ export function Hero({
           )}
           {byline?.value && (
             <Text format width="narrow" as="p" size="lead">
-              {byline.value}
+              {/* {byline.value} */}
+              Hydrogen text value
             </Text>
           )}
-          {cta?.value && <Text size="lead">{cta.value}</Text>}
+          {cta?.value && (
+            <Text size="lead">
+              {/* {cta.value} */}
+              Hydrogen Shop Now
+            </Text>
+          )}
         </div>
       </section>
     </Link>
